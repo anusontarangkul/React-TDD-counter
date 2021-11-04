@@ -31,6 +31,6 @@ test('add button renders with +', () => {
 
 test('subtract button renders with -', () => {
     const { getByTestId } = render(<Counter />)
-    const subtractBtn = getByTestId('add-subtract')
-    expect(subtractBtn.textContent).toBe('+')
+    const subtractBtn = getByTestId('subtract-btn')
+    expect(subtractBtn.textContent).toBe('-')
 })
